@@ -6,6 +6,8 @@
 #define LIMPA_TERM system("clear")
 #endif
 
+testandoo;
+
 void cabecalho();	//Cabeçalho da UPA
 void cadastro();	// Função para cadastrar os pacientes
 void sintomas();	// Função para receber os sintomas
@@ -13,9 +15,9 @@ void lista_triagem(); 		// Mostrando os dados
 void chamar_triagem();
 void separador();
 
-
 typedef struct cad
 {
+
 	char nome[100];								//Struct para o cadastro dos pacientes
 	char endereco[100];
 	char cpf[10];
